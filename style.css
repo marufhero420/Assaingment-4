@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+/* header-section-start */
+.header-top{
+    background: #F7F7F7;
+}
+.top-header-left{
+    width: 100%;
+    margin-left: 100px;
+    padding: 7px;
+    
+}
+.left{
+    display: inline-block;
+}
+.top-header-left p{
+font-size: 15px;
+color: #332e2ed8;
+}
+.top-header-left ul{
+    margin-left: 30px;
+}
+.top-header-left ul li{
+    display: inline-block;
+    width: 30px;
+  }
+  .top-header-left ul li a{
+    color: #3753F7;
+    font-size: 14px;
+   }
+
+   .mail{
+      margin-left: 800px;
+  }
+  .mail ul li a {
+      text-decoration: none;
+     
+  }
+  .mail ul li a p{
+    color: #332e2ed8;
+    font-size: 15px;
+  }
+
+
+  .header-middle{
+      width: 100%;
+      display: inline-block;
+      background: #FFFFFF;
+  }
+  
+  .middle-left{
+      
+      width: 30%;
+  }
+ .logo{
+     float: left;
+     width: 40%;
+ }
+ .logo img{
+     margin-left: 100px;
+     padding: 10px;
+ }
+ .logo h3{
+     font-size: 20px;
+     margin-top: 30px;
+     margin-left: 10px;
+
+ }
+ .middle-right{
+    width: 90%;
+ }
+ 
+.mid-icon{
+    margin-left: 50px;
+    float: right;
+}
+.call a i{
+    font-size: 20px;
+    color: rgb(12, 12, 231);
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.call{
+    float: left;
+    padding: 5px;
+}
+.call p{
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgba(41, 36, 36, 0.822);
+}
+.call h4{
+    padding: 5px;
+    font-size: 15px;
+}
+.mid-icon img{
+    padding: 10px;
+
+}
+
+.header-menu{
+    background-color: #1662DC;
+    }
+    
+    .header-menu ul{
+        text-align: left;
+        margin-left: 130px;
+    }
+    .header-menu ul li{
+        display: inline-block;
+        margin-left: 4px;
+    }
+    .header-menu ul li a{
+        color: #FFFFFF;
+        padding: 12px 17px;
+        display: inline-block;
+        font-size: 18px;
+        text-decoration: none;
+        
+    }
+    
+    .header-menu ul li:hover > a{
+        background: #2d60b3;
+    }
+    /* Dropdown menu start */
+    .header-menu ul li{
+        position: relative;
+    }
+    .header-menu ul li ul{
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 200px;
+        border-top: 1px solid #ddd;
+        transition: .5s;
+    }
+    .header-menu ul li ul li{
+        display: block;
+        margin-left: 0;
+    }
+    .header-menu ul li ul li a{
+        background-color: #f7f7f7ad;
+        display: block;
+        border: none;
+        color: black;
+        border-bottom: 1px solid #ddd;
+    }
+    .header-menu ul ul li:first-child a{
+    border-left: none;
+    }
+    
+    /* dropdown menu end */
+    /* Hover part start */
+    .header-menu ul li ul{
+        opacity: 0;
+        visibility: hidden;
+         transform: scaleY(0);
+        transform-origin: top center;
+        
+    
+    }
+    .header-menu ul li:hover ul{
+        transform: scaleY(1);
+        opacity: 1;
+        visibility: visible;
+    }
+    /* Hover part end */
+    
+/* header-section-end */
+
+
+
+/* slider-section-start */
+.slider{
+    
+	width: 1349px;
+	height: 600px;
+    background-image: url("images/building-image-big.jpg");
+	background-size: 100% 100%;
+	animation: slider 10s infinite;
+}
+@keyframes slider{
+	0%{
+		background-image: url("images/building-image-big.jpg");
+	}
+	25%{
+		background-image: url("images/building.jpg");
+	}
+	50%{
+		background-image: url("images/building-image-big.jpg");
+    }
+    75%{
+        background-image: url("images/building.jpg");
+    }
+
+
+}
+.slider h1{
+    text-align: center;
+    color: #FFFFFF;
+    padding: 150px;
+    font-size: 40px
+}
+.slider h4{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px;
+}
+.slider p{
+    text-align: center;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 500px;
+    margin-left: 400px;
+}
+button{
+    margin-left: 600px;
+    background: none;
+    border: 2px solid#ddd;
+    padding: 8px 20px 8px;
+    border-radius: 20px;
+
+}
+button a{
+    font-size: 16px;
+    text-decoration: none;
+   color: #FFFFFF;
+}
+button:hover{
+    background: blanchedalmond;
+}
+button a:hover{
+    color: blue;
+}
+/* slider-section-end*/
