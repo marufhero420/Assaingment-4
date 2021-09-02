@@ -3,6 +3,9 @@
     padding: 0;
 } 
 /* header-section-start */
+.header-section{
+    width: 100%;
+}
 .header-top{
     background: #F7F7F7;
 }
@@ -125,34 +128,7 @@ color: #332e2ed8;
     .header-menu ul li:hover > a{
         background: #2d60b3;
     }
-    /* Dropdown menu start */
-    .header-menu ul li{
-        position: relative;
-    }
-    .header-menu ul li ul{
-        position: absolute;
-        left: 0;
-        top: 100%;
-        width: 200px;
-        border-top: 1px solid #ddd;
-        transition: .5s;
-    }
-    .header-menu ul li ul li{
-        display: block;
-        margin-left: 0;
-    }
-    .header-menu ul li ul li a{
-        background-color: #f7f7f7ad;
-        display: block;
-        border: none;
-        color: black;
-        border-bottom: 1px solid #ddd;
-    }
-    .header-menu ul ul li:first-child a{
-    border-left: none;
-    }
     
-    /* dropdown menu end */
     /* Hover part start */
     .header-menu ul li ul{
         opacity: 0;
@@ -238,3 +214,308 @@ button a:hover{
     color: blue;
 }
 /* slider-section-end*/
+
+
+/* about-section-start */
+     .about-section{}
+    .about-text{
+        padding: 50px;
+        display: block;
+    }
+    .about-text p{
+        text-align: center;
+        padding: 10px;
+        font-size: 18px;
+        color: rgb(29, 27, 27);
+    }
+    .about-text h3{
+        text-align: center;
+        padding: 10px;
+        font-size: 25px;
+        color: #3895D4;
+    }
+    .about-box{
+        width: 100%;
+        padding: 30px;
+        display: inline-block;
+        
+        
+    }
+    .home{
+        display: inline-block;
+        width: 15%;
+        text-align: center;
+        border: 2px solid rgb(93, 93, 248);
+        padding: 15px;
+        margin-left: 70px;
+        border-radius: 15px;
+    }
+    .home a{
+       font-size: 80px;
+       color: #0089EB;
+    }
+    .home p{
+        font-size: 18px;
+        color: rgb(46, 42, 42);
+    }
+    .home h3{
+        font-size: 30px;
+        padding: 10px;
+    }
+/* about-section-end */
+
+
+/* akij-section-start */
+  .akij-section{
+      display: inline-block;
+      width: 100%;
+      background-color: #E7F0FD;
+  }
+  .akij{ 
+    float: left;
+     width: 40%;
+        margin-left: 50px;
+  }
+  .akij img{
+      width: 80%;
+      margin-top: 10px;
+      border-radius: 5px;
+  }
+  .akij p{
+      font-size: 16px;
+      line-height: 20px;
+      text-align: left;
+      padding-top: 20px;
+  }
+  .akij h2{
+      margin-top: 70px;
+      text-align: left;
+      font-size: 28px;
+  }
+  .btn{
+      margin-top: 20px;
+    margin-left: 20px;
+    background: #00BAF9;
+    border: 2px solid#ddd;
+    padding: 14px 30px 14px;
+    border-radius: 50%px;
+  }
+  .btn a{
+      color: #FFFFFF;
+  }
+.btn:hover{
+    color: #FFFFFF;
+    background: #00BAF9;
+}
+
+
+/* profile-section */
+
+.profile-section{
+    background-color: #FFFFFF;
+    display: inline-block;
+}
+.profile-text h2{
+    color: #00BAF9;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+.profile-text p{
+    text-align: center;
+    width: 50%;
+    margin-left: 300px;
+    padding: 20px;
+    font-size: 18px;
+}
+.profile-img{
+    padding: 50px;
+}
+.profile-img .logo{
+    width: 18%;
+    
+}
+.profile-img .logo img{
+    width: 60%;
+
+}
+/* .profile-section-end */
+
+.Strategies-section{
+    width: 100%;
+    background-color: #386AB1;
+}
+.Strategies{
+    background-color: #386AB1;
+    width: 50%;
+    float: left;
+   
+}
+.Strategies h4{
+    text-align: center;
+    width: 200px;
+    color: #F7F7F7;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+    padding: 30px;
+
+}
+.Strategies h1 {
+   color: #F7F7F7;
+   font-size: 30px;
+   margin-left: 60px;
+   padding: 20px;
+   
+
+}
+.Strategies p {
+    color: #F7F7F7;
+    font-size: 18px;
+    margin-left: 60px;
+    padding: 20px;
+    padding-bottom: 114px;
+    
+ 
+ }
+/* product-section-start */
+
+.product-section{}
+.product-text{
+   padding-top: 50px;
+}
+.product-text h2{
+    color: #00BAF9;
+    font-size: 30px;
+    text-align: center;
+    
+}
+.product-text p{
+    text-align: center;
+    width: 50%;
+    margin-left: 300px;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.product-img{
+ padding: 50px;
+}
+.product-img img{
+   width: 13%; 
+   border: 1px solid rgb(212, 201, 201);
+   height: 170px;
+   margin-left: 10px;
+   border-radius: 5px;
+   background-color: #D8F2FF;
+}
+
+
+/* product-section-end */
+.subscribe-section{
+    width: 100%;
+    background-image: url(images/building.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.sub-text h2{
+    color: #F7F7F7;
+    text-align: center;
+    padding: 70px;
+    font-size: 30px;
+
+}
+.sub-text h3{
+    color: #F7F7F7;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+.sub-input{
+    text-align: center;
+    padding-bottom: 100px;
+}
+input{
+    padding: 7px;
+    font-size: 16px;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+/* footer-section-start */
+.footer-section{
+    background: #005DC7;
+    padding: 30px;
+}
+.footer{
+    width: 40%;
+    display: inline-block;
+    margin-left: 100px;
+}
+.footer img{
+    width: 20%;
+    margin-left: 70px;
+    padding: 20px;
+ 
+}
+.footer h1{
+    font-size: 18px;
+    color: azure;
+    margin-left: 70px;
+}
+.footer p{
+    color: beige;
+    padding-top: 5px;
+}
+.footer h3{
+    margin-left: 20px;
+    padding: 10px;
+    color: beige;
+}
+.footer ul{
+    margin-left: 20px;
+}
+.footer ul li{
+  display: inline-block;
+    width: 40px;
+}
+    
+   
+   
+
+.footer ul li a{
+    color: #F7F7F7;
+    font-size: 18px;
+    margin-left: 10px;
+    
+    
+
+}
+.footer h2{
+    color: #F7F7F7;
+    font-size: 30px;
+    text-align: left;
+    
+}
+.footer .div{
+    padding-top: 20px;
+}
+.footer .div a{
+    color: #F7F7F7;
+    font-size: 16px;
+    text-decoration: none;
+    
+}
+
+footer{
+    text-align: center;
+    color: #F7F7F7;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+
+
+/* footer-section-end */
+
+
